@@ -1,0 +1,14 @@
+<APIProxy revision="2" name="Hello-Proxy">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1674168869683</CreatedAt>
+    <LastModifiedAt>1674169046558</LastModifiedAt>
+    <BasePaths>/hello-proxy</BasePaths>
+    <Policies>
+        <Policy>Respond-Hello</Policy>
+        <Policy>Fix-Cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
